@@ -1,0 +1,606 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background: rgba(0, 0, 0, 0.945);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.para{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+  
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.nav-title {
+  color: rgb(230, 83, 60);
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-left: -70px;
+}
+
+.navbar-info {
+  padding: 8px;
+  color: white;
+  gap: 60px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home {
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: 600;
+  background: rgb(230, 83, 60);
+}
+.burger {
+  display: none;
+}
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.banner-content {
+  color: white;
+}
+.banner-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.banner-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+}
+#shape {
+  font-family: "Brush Script MT", cursive;
+  font-weight: 100;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.btn-first {
+  font-size: 1.1rem;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: -50px;
+  border: none;
+  background-color: rgb(230, 83, 60);
+  color: white;
+  font-weight: 500;
+}
+.btn-second {
+  font-size: 1.1rem;
+  border-radius: 50px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+.btn-third{
+  margin-left: 5px;
+  width: 230px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.btn-fourth{
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 2px;;
+}
+
+.trainer-image {
+  position: relative;
+}
+
+.img-icon{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 5px;
+    position: absolute;
+    color: white;
+    top: 430px;
+    right: 200px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.color-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+.tutorial > p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.workout > p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.workout {
+    width: 150px;
+    gap: 20px;
+    padding: 20px 10px;
+    position: absolute;
+    color: white;
+    top: 150px;
+    right: -20px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.habits{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.habits > h1{
+  font-size: 3rem;
+}
+.habits > p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 1.6rem;
+}
+.habits-images{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.first-img{
+  width: 272px;
+  height: 180px;
+}
+.first-img > img{
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 45px;
+}
+.text-style{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.text-style > p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 1rem;
+} 
+
+.run{
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+  padding: 30px;
+}
+
+.run-content > h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.run-content > p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 50px; 
+  line-height: 1.6rem; 
+}
+.run-img{
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+
+
+.bmi{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.bmi-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  max-width: 80%;
+  border-radius: 10px;
+  margin-left: 140px;
+}
+
+.bmi-content > h1{
+  color: black;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.chart-table{
+  width: 115%;
+}
+
+.table-content{
+  width: 100%;
+  border-collapse: collapse;
+  color: black;
+  text-align: left;
+}
+
+table, tr, th{
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 70px;
+}
+
+td{
+  color: black;
+  border: 1px solid black;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 20px;
+}
+.calculate-bmi{
+  width: 50%;
+}
+.calculate-bmi >h1{
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 30px;
+  margin-top: -15px;
+  
+}
+.calculate-bmi >p{
+  color: black;
+  margin-bottom: 30px;
+}
+
+.option{
+  height: 200%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+.option-description{
+  height: 200%;
+  border-radius: 8px;
+  border: 1px solid black;
+  border: none;
+  background-color:bisque;
+  padding: 2.5px;
+}
+
+#factor{
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid black;
+  border: none;
+  background-color:bisque;
+  padding: 20px;
+  margin-top: 37px;
+}
+
+
+
+
+.our-benefit{
+  margin-top: 50px;
+  text-align: center;
+  /* position: relative; */
+}
+
+.benefit{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.card{
+  /* justify-content: space-between; */
+  max-width: 90%;
+  text-align: center;
+  margin-top: 20px;
+  /* margin-left: 25px; */
+  margin-bottom: 20px;
+}
+
+.card>img{
+  width: 450px;
+  height: 350px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+
+
+.meet{
+  margin-top: 50px;
+  text-align: center;
+  /* margin-left: 20px; */ 
+  margin-bottom: 50px;
+}
+
+.meet-container{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin:0 auto;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.meet-content > img{
+  /* margin-left: 60px; */
+  height: 300px;
+  width: 300px;
+}
+
+.trainer{
+  max-width: 85%;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.overlay-text{
+  position: absolute;
+}
+
+.overlay-text > h1{
+  position: relative;
+  margin-top: -80px;
+  margin-left: 40px;
+}
+
+.overlay-text > p{
+  margin-left: 40px;
+}
+
+
+.footer-container{
+  border: 2px solid transparent;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.fit{
+  margin-top: 50px;
+  margin-left: 2px;
+  margin-bottom: 30PX;
+  font-size: 4rem;
+}
+.footer-content-first >p{
+  line-height: 25px;
+  margin-bottom: 50px;
+  font-size: 0.8rem;
+}
+
+.footer-content-second{
+  margin-right: 80px;
+}
+
+.footer-content-third{
+  margin-right: 80px;
+}
+
+.footer-content-second > h1{
+  color: white;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.footer-content-third > h1{
+  color: white;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.footer-content-second > p{
+  line-height: 40px;
+  font-size: 1rem;
+}
+
+.footer-content-third > p{
+  line-height: 40px;
+  font-size: 1rem;
+}
+
+hr{
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 110px;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.foot{
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-info {
+    display: none;
+  }
+  .nav-title {
+    margin-left: -200px;
+  }
+  .burger {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    margin-top: -40px;
+    margin-left: 350px;
+  }
+  .banner-container{
+    margin-top: 30px;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  .navbar{
+    padding: 0px 20px;
+  }
+  .banner-content > h1{
+    font-size: 3rem;
+  }
+  .workout{
+    top:  60px;
+  }
+  .habits > h1{
+    font-size: 2rem;
+  }
+  .habits-images{
+    flex-direction: column;
+  }
+  .first-img{
+    margin: 60px;
+  }
+  .run{
+    width: 80%;
+    flex-direction: column;
+  }
+  .btn-third{
+    width: 100%;
+  }
+  .btn-fourth{
+    margin-bottom: 30px;
+  }
+  .run-img{
+    margin-top: -60px;
+  }
+  .bmi-container{
+    flex-direction: column;
+  }
+  .chart-table{
+    width: 100%;
+  }
+  .calculate-bmi{
+    width: 95%;
+  }
+
+  .benefit{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .meet-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-content{
+    flex-direction: column;
+  }
+  .fit{
+    margin-left: 20px;
+  }
+  .footer-content-second{
+    margin-top: -100px;
+  }
+  .footer-content-third{
+    margin-top: -100px;
+  }
+  hr{
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .foot{
+    text-align: start;
+    margin-left: 80px;
+  }
+}
