@@ -252,6 +252,7 @@ body {
   margin-bottom: 50px; 
   line-height: 1.6rem; 
 }
+
 .run-img{
   width: 100%;
   height: auto;
@@ -265,6 +266,7 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
+
 .bmi-container{
   display: flex;
   flex-direction: row;
@@ -576,6 +578,15 @@ hr{
 
   .benefit{
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card>img{
+     max-width: 350px;
+  }
+  .option{
+        width:200px;
+        display: grid;
+       grid-template-columns: repeat(2, 1fr);
   }
   .meet-container{
     grid-template-columns: repeat(1, 1fr);
